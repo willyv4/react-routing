@@ -1,0 +1,19 @@
+.nav {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 20px;
+}
+
+.link {
+	background-color: rgb(35, 34, 34);
+	text-decoration: none;
+	font-weight: 900;
+	color: whitesmoke;
+	padding: 1rem;
+	border-radius: 5px;
+	transition: 500ms ease-in-out;
+}
+
+.link:hover {
+	background-color: rgb(62, 59, 59);
+}
